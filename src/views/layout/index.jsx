@@ -43,9 +43,7 @@ HideOnScroll.propTypes = {
 };
 
 export default function HideAppBar() {
-  const [url, setUrl] = React.useState(
-    "https://www.tiktok.com/@tylr.kellyyy/video/7486523269093477678?is_from_webapp=1&sender_device=pc"
-  );
+  const [url, setUrl] = React.useState("");
   const [error, setError] = React.useState("");
   const [videoInfo, setvideoInfo] = React.useState(null);
   const [loading, setLoading] = React.useState(false);
